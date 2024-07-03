@@ -63,7 +63,7 @@ Input = 'John'; // Okay
 
 let userId: number;
 userId = 42;
-userInput = userId; // Okay
+Input = userId; // Okay
 //userId = Input; // Error: Type 'unknown' is not assignable to type 'number'.
 
 // 4. Default type
